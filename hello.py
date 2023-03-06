@@ -63,8 +63,8 @@ def wa_reply():
     #resp.message(generated_text)
     #return str(resp)
 
-#if __name__ == "__main__":
- ##   app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=False,host='0.0.0.0')
 #python -m flask run
     #ngrok http 5000
     
